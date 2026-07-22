@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 2
       - uses: uizze/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba # v1.0.2
