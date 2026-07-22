@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 2
-      - uses: samuelbushi/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba # v1.0.2
+      - uses: uizze/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba # v1.0.2
         with:
           manifest: .github/uizze-ui-evidence.json
           fail-on: error

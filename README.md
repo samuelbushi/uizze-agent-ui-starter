@@ -11,10 +11,10 @@ GitHub Action are free to use.
 
 ## Start in five minutes
 
-Use this repository as a GitHub template, [open a verified copy in GitHub Codespaces](https://codespaces.new/samuelbushi/uizze-agent-ui-starter), or clone it:
+Use this repository as a GitHub template, [open a verified copy in GitHub Codespaces](https://codespaces.new/uizze/uizze-agent-ui-starter), or clone it:
 
 ```bash
-git clone https://github.com/samuelbushi/uizze-agent-ui-starter.git my-product
+git clone https://github.com/uizze/uizze-agent-ui-starter.git my-product
 cd my-product
 npm install
 npm run dev
@@ -36,7 +36,7 @@ Then:
 - a bundled free anti-ui-slop skill for Codex and Claude Code;
 - workspace rules for Codex, Claude Code, Cursor, and GitHub Copilot;
 - an explicit design-contract template and filled example;
-- `samuelbushi/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba`
+- `uizze/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba`
   (`v1.0.2`) running locally inside GitHub Actions;
 - deterministic checks that fail if the contract, skill, evidence, or workflow is removed.
 
