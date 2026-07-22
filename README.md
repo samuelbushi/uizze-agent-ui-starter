@@ -11,7 +11,7 @@ GitHub Action are free to use.
 
 ## Start in five minutes
 
-Use this repository as a GitHub template or clone it:
+Use this repository as a GitHub template, [open a verified copy in GitHub Codespaces](https://codespaces.new/samuelbushi/uizze-agent-ui-starter), or clone it:
 
 ```bash
 git clone https://github.com/samuelbushi/uizze-agent-ui-starter.git my-product
