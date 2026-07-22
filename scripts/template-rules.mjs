@@ -39,7 +39,10 @@ export function assert(condition, message) {
 
 export function validateWorkflowText(workflow) {
   assert(workflow.includes("workflow_call:"), "UI review workflow must be reusable with workflow_call");
-  assert(workflow.includes("samuelbushi/uizze-ui-slop-gate@v1"), "UI review workflow must use the released UIZZE gate");
+  assert(
+    workflow.includes("uses: samuelbushi/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba # v1.0.2"),
+    "UI review workflow must pin the immutable UIZZE gate v1.0.2 commit",
+  );
   assert(workflow.includes("manifest: .github/uizze-ui-evidence.json"), "UI review workflow must use checked-in state evidence");
   assert(workflow.includes("fail-on: error"), "UI review workflow must fail on error findings");
   assert(/permissions:\n\s+contents: read/.test(workflow), "UI review workflow must keep read-only contents permission");

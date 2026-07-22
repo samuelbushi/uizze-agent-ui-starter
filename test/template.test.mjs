@@ -17,7 +17,7 @@ test("the checked-in starter contract is complete", async () => {
 });
 
 test("a workflow without the released action is rejected", () => {
-  assert.throws(() => validateWorkflowText("workflow_call:\npermissions:\n  contents: read\n"), /released UIZZE gate/);
+  assert.throws(() => validateWorkflowText("workflow_call:\npermissions:\n  contents: read\n"), /immutable UIZZE gate/);
 });
 
 test("a contract without required states is rejected", () => {

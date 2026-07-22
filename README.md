@@ -36,7 +36,8 @@ Then:
 - a bundled free anti-ui-slop skill for Codex and Claude Code;
 - workspace rules for Codex, Claude Code, Cursor, and GitHub Copilot;
 - an explicit design-contract template and filled example;
-- `samuelbushi/uizze-ui-slop-gate@v1` running locally inside GitHub Actions;
+- `samuelbushi/uizze-ui-slop-gate@d4797bac46fd5f96b60cc4d0c3d92fbca508e9ba`
+  (`v1.0.2`) running locally inside GitHub Actions;
 - deterministic checks that fail if the contract, skill, evidence, or workflow is removed.
 
 The Action is a conservative source check. It does not upload source or claim to

@@ -1,6 +1,6 @@
 {
   "name": "uizze-agent-ui-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "A Next.js starter with an agent-ready UI finish gate.",
   "scripts": {
